@@ -1,0 +1,58 @@
+body {
+  background-color: cadetblue;
+  color: white;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+label {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 90%;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-family: monospace;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 6px #999;
+}
+
+.btn:hover {
+  background-color: #6f3f47;
+  color: white;
+}
+
+.btn:active {
+  box-shadow: none;
+  transform: translateY(2px);
+}
+
+.days {
+  color: red;
+}
+
+img {
+  margin-top: 20px;
+  width: 20vw;
+  border-radius: 5px;
+  align-content: center;
+}
