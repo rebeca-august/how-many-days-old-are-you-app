@@ -9,12 +9,22 @@
   </head>
   <body>
     <form class="container">
-      <h1>How many days old are you?</h1>
+      <h1>
+        How old are you in
+        <select>
+          <option value="months">Months</option>
+          <option value="weeks">Weeks</option>
+          <option value="days" selected>Days</option>
+          <option value="hours">Hours</option>
+          <option value="seconds">Seconds</option></select
+        >?
+      </h1>
       <label for="dob">Select your date of birth</label>
       <div>
         <input id="dob" name="date" type="date" required />
         <button class="btn" type="submit">Go</button>
       </div>
+      <div class="result"></div>
     </form>
 
     <script src="index.js"></script>
